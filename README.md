@@ -1,35 +1,30 @@
-<h1 align="center">MVC Tech Blog</h1>
+<h1 align="center">Tech News Blog</h1>
   
 <p align="center">
     <img src="https://img.shields.io/badge/javascript-yellow" />
     <img src="https://img.shields.io/badge/express-orange" />
-    <img src="https://img.shields.io/badge/sequelize-blue"  />
+    <img src="https://img.shields.io/badge/sequelize-purple"  />
     <img src="https://img.shields.io/badge/handlebars-red"  />
     <img src="https://img.shields.io/badge/mySQL-blue"  />
     <img src="https://img.shields.io/badge/dotenv-green" />
-    <img src="https://img.shields.io/badge/license-MIT-purple.svg" />
+    <img src="https://img.shields.io/badge/license-MIT-black.svg" />
 </p>
    
 ## Description
 
 🔍 A mysql database and CMS-style Blog built using Model View Controller (MVC) paradigm. 
-  <br>Built using MySQL2, Express, Sequelize, Handlebars and dotenv.
+  <br>Built using MySQL2, Express, Sequelize, Handlebars and dotenv. <br>
+   A tech news website where users can post, upvote, and comment on links to news articles.<br>
+   Users who are logged in will be able to update and delete their existing posts through a dashboard UI.
 
 **[Deployed Application](https://_)**
   
 💻 Below are screenshots of the application:
   
-![create sign up: a tech blog](./public/stylesheets/images/create_acct.png)
-![login: a tech blog](./public/stylesheets/images/login.png)
-![homepage: a tech blog](./public/stylesheets/images/homepage.png)
+![create sign up: news blog](./public/stylesheets/images/create_acct.png)
+![login: news blog](./public/stylesheets/images/login.png)
+![homepage: newsblog](./public/stylesheets/images/homepage.png)
 
-## User Story
-
-```
-AS A developer who writes about tech
-I WANT a CMS-style blog site
-SO THAT I can publish articles, blog posts, and my thoughts and opinions
-```
 
 ## Acceptance Criteria
 
@@ -65,13 +60,10 @@ WHEN I click on one of my existing posts in the dashboard
 THEN I am able to delete or update my post and taken back to an updated dashboard
 WHEN I click on the logout option in the navigation
 THEN I am signed out of the site
-WHEN I am idle on the page for more than a set time
-THEN I am automatically signed out of the site 
 ```
    
 ## Table of Contents
 - [Description](#description)
-- [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Table of Contents](#table-of-contents)
 - [Installation](#installation)
@@ -104,15 +96,15 @@ Enter PW when promted
 
 ## Frontend Usage
 💻 
-`required login to create a blog: username, email, github, password`
+`required login to create a blog: username, password`
 
-`Homepage displays all users blogs with title.  User can select to create a post, navigate to dashboard of all blogs user has created.  User can Comment on other Users Blogs.  User can see date and contact details for other bloggers  `
+`Homepage displays all stories with title.  User can select to create a post, navigate to dashboard of all blogs user has created.  User can Comment on other Users Blogs. `
 
 `Dashboard allows user to edit post, save edits made or delete post.`
 `If a deletion is done from the blog - this is not able to be reversed! Blogger beware!`
 
 ## Testing
-* outline testing setup with Jest
+* see test file for TDD testing
 
 ## Contributing
 :octocat: [Jenifer Queen](https://github.com/queen-stack)
