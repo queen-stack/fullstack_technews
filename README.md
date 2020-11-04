@@ -17,7 +17,7 @@
    A tech news website where users can post, upvote, and comment on links to news articles.<br>
    Users who are logged in will be able to update and delete their existing posts through a dashboard UI.
 
-**[Deployed Application](https://_)**
+**[Deployed Application](https://lit-caverns-16271.herokuapp.com/login)**
   
 💻 Below are screenshots of the application:
   
